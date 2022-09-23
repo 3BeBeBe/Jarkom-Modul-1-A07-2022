@@ -91,5 +91,5 @@ Temukan password rahasia (flag) dari organisasi bawah tanah yang disebutkan di a
 ![10.1!](img/10.1.png)
 ![10.2!](img/10.2.png)
 
-- Dengan membuka file A07.des3 kemudian mengisikan command `openssl des3 -d -salt -in A07.des3 -out flag,txt` pada terminal, dengan password yang ditemuakn adalah `"nakano"`
+- Dengan membuka file A07.des3 kemudian mengisikan command `openssl des3 -d -salt -in A07.des3 -out flag.txt` pada terminal, dengan password yang ditemuakn adalah `"nakano"`
 - Setelah itu kita dapat melihat flag pada file flag.txt
