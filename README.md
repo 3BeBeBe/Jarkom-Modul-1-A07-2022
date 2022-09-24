@@ -11,24 +11,24 @@
 Sebutkan web server yang digunakan pada "monta.if.its.ac.id"! 
 
 ![1!](img/1.v2.png)
-![1hasil!](img/1hasil.v2.png)
 
 - Pertama mengisi display filter dengan : `http.host == monta.if.its.ac.id`
+
+![1hasil!](img/1hasil.v2.png)
+
 - Dengan melakukan Follow kemudian TCP Stream, maka bisa dilihat server yang digunakan adalah  nginx/1.10.3
 
 ## Nomor 2
 Ishaq sedang bingung mencari topik ta untuk semester ini , lalu ia datang ke website monta dan menemukan detail topik pada website “monta.if.its.ac.id” , judul TA apa yang dibuka oleh ishaq ?
 
 ![2!](img/2.png)
-![2hasil!](img/2hasil.png)
 
 - Dengan mengisi display filter dengan `frame matches "detailTopik"`
-- Kemudian melakukan eksport object http pada file lihatTopik, kemudian setelah dieksport dapat dilihat beberapa detail topik ta yang ishaq temukan yaitu,
-  - Deteksi Sentimen pada Data Audio
-  - Prediksi Produk Belanja
-  - Cloud Provisioning dengan menggunakan OBL dan FSO
-  - Cloud Resource Provisioning with Scheduling System
-  - Cloud Provisioning dengan menggunakan GA-ANN
+
+![2hasil!](img/2hasil.png)
+
+- Kemudian melakukan eksport object http pada file 194, kemudian setelah dieksport dapat dilihat beberapa detail topik ta yang ishaq temukan yaitu,
+  - Evaluasi unjuk kerja User Space Filesystem (FUSE)
 
 ## Nomor 3
 Filter sehingga wireshark hanya menampilkan paket yang menuju port 80! 
@@ -57,6 +57,10 @@ Filter sehingga wireshark hanya menampilkan paket yang menuju ke lipi.go.id !
 ![6!](img/6.png)
 
 - Dengan mengisi display filter dengan : `tcp contains "lipi"`
+
+![6hasil!](img/6hasil.png)
+
+- Maka ditemukan semua paket yang menuju lipi.go.id
 
 ## Nomor 7
 Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
